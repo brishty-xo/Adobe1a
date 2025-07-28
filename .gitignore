@@ -1,0 +1,8 @@
+__pycache__/ 
+*.pyc 
+*.log 
+output/ 
+wheels/ 
+*.whl 
+.DS_Store 
+.vscode/
