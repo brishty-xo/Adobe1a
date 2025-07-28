@@ -74,18 +74,11 @@ We have all .whl files in a wheels/ directory and the correct requirements.txt.
 ``` bash
 
 docker run --rm -v "%cd%":/app heading-extractor \
-  --train_csv training_labels.csv \
-  --input_pdf input/file01.pdf \
-  --output_json output/file01.json
+  
 
 ```
-* Adjust filenames as needed. This command:
 
-- Trains the model using training_labels.csv
 
-- Processes file01.pdf
-
-- Saves output to output/file01.json
 
 ## Expected Output Format
 The output JSON includes:
